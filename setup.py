@@ -13,7 +13,7 @@ setuptools.setup(
     description="This module used to get meaning of word in a input sentence",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/DASHANANT/Get_Wordsense",
     packages=setuptools.find_packages(),
     install_requires=['nltk','nltk.corpus','nltk.stem']
     keywords=['WSD', 'Sense', 'Disambiguation', 'Lesk', 'word-sense','stem','Knowlege based','wordnet','NLP'],
