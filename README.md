@@ -43,7 +43,7 @@ In `bibtex`:
 @misc{pywsd14,
 author =   {Anant Dashpute},
 title =    {Get_Wordsense: Python Implementation of Get_Wordsense},
-howpublished = {https://github.com/DASHANANT/},
+howpublished = {https://github.com/DASHANANT/Get_Wordsense},
 year = {2021}
 }
 ```
