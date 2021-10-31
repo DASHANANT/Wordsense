@@ -1,5 +1,5 @@
 
-# Get_Wordsense
+# Wordsense
 
 
 The whole idea of word sense is controversial.
