@@ -1,8 +1,10 @@
 # Get_Wordsense
 ---------------------------------------------------------------------------------
-The whole idea of word sense is controversial. The meaning of a word is highly contextual and depends on its usage in sentence.
+The whole idea of word sense is controversial. 
+The meaning of a word is highly contextual and depends on its usage in sentence.
 
-English is very difficult language to learn by robot as a lot of words are Ambiguous( Word with diffrent meanings). 
+English is very difficult language to learn by robot as 
+a lot of words are Ambiguous( Word with diffrent meanings). 
 
 To solve this state-of-the-art problem, we have implemented the solution using Knowledge-Based Method ,
 which concerned with identifying which sense of a word is used in a sentence.
