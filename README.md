@@ -1,4 +1,5 @@
 # Get_Wordsense
+---------------------------------------------------------------------------------
 The whole idea of word sense is controversial. The meaning of a word is highly contextual and depends on its usage in sentence.
 
 English is very difficult language to learn by robot as a lot of words are Ambiguous( Word with diffrent meanings). 
@@ -8,12 +9,13 @@ which concerned with identifying which sense of a word is used in a sentence.
 
 
 ## How to Install
-```
+```python
+$ python
 >>>pip install Get_Wordsense
->>>from Get_Wordsense import Get_sense
 ```
 ## Requirement
-```
+```python
+$ python
 pip install -U nltk
 nltk.download('stopwords')
 pip install -U Get_Wordsense
@@ -23,7 +25,6 @@ pip install -U Get_Wordsense
 ## Demonstration
 ```python
 $ python
->>> from Get_Wordsense import Get_sense
 >>> sentence = 'I went to the bank to deposit my money'
 >>> ambiguous_word = 'bank'
 >>> print Get_sense(sentence, ambiguous_word, pos=None, synsets=None)

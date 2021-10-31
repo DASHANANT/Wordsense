@@ -5,7 +5,6 @@ from setuptools import find_packages
 
 setup(
     name="Get_Wordsense",
-    version="1.0",
     author="Anant Dashpute",
     author_email="<anantdashpute@gmail.com>",
     description="This module is used to get Wordsense of ambiguous word",
