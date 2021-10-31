@@ -1,62 +1,58 @@
-# Get_Wordsense
----------------------------------------------------------------------------------
-The whole idea of word sense is controversial. 
+======================
+Get_Wordsense
+======================
+
+The whole idea of word sense is controversial.
 The meaning of a word is highly contextual and depends on its usage in sentence.
 
-English is very difficult language to learn by robot as 
-a lot of words are Ambiguous( Word with diffrent meanings). 
+English is very difficult language to learn by robot as
+a lot of words are Ambiguous( Word with diffrent meanings).
 
 To solve this state-of-the-art problem, we have implemented the solution using Knowledge-Based Method ,
 which concerned with identifying which sense of a word is used in a sentence.
 
+# How to Install
 
-## How to Install
----------------------------------------------------------------------------------
 ```python
 $ python
-pip install -U nltk
-nltk.download('stopwords')
+>>>pip install -U nltk
+
+>>>nltk.download('stopwords')
+
 >>>pip install Get_Wordsense
 ```
 
-## Demonstration
----------------------------------------------------------------------------------
+# Demonstration
+
 ```python
 $ python
->>> sentence = 'I went to the bank to deposit my money'
->>> ambiguous_word = 'bank'
->>> print Get_sense(sentence, ambiguous_word, pos=None, synsets=None)
+
+>>>sentence = 'I went to the bank to deposit my money'
+
+>>>ambiguous_word = 'bank'
+
+>>>print Get_sense(sentence, ambiguous_word, pos=None, synsets=None)
+
 'a financial institution that accepts deposits and channels the money into lending activities'
 ```
 
-### Cite
----------------------------------------------------------------------------------
+# Cite
+
 To cite `Get_Wordsense`:
 
-Anant Dashpute. 2021. Get_Wordsense: Python Implementation of Get_Wordsense. Retrieved from  https://github.com/DASHANANT/
+Anant Dashpute. 2021. Get_Wordsense: Python Implementation of Get_Wordsense.
+Retrieved from <https://github.com/DASHANANT/Get_Wordsense>
 
-In `bibtex`:
 
-```
-@misc{Get_Wordsense,
-author =   {Anant Dashpute},
-title =    {Get_Wordsense: Python Implementation of Get_Wordsense},
-howpublished = {https://github.com/DASHANANT/Get_Wordsense},
-year = {2021}
-}
-```
-
-***
-
-## References
----------------------------------------------------------------------------------
+# References
 
 - Michael Lesk. 1986. Automatic sense disambiguation using machine readable dictionaries: how to tell a pine cone from an ice cream cone. In Proceedings of the 5th annual international conference on Systems documentation (SIGDOC '86), Virginia DeBuys (Ed.). ACM, New York, NY, USA, 24-26. DOI=10.1145/318723.318728 http://doi.acm.org/10.1145/318723.318728
 
-- Zhi Zhong and Hwee Tou Ng. 2010. It makes sense: a wide-coverage word sense disambiguation system for free text. In <i>Proceedings of the ACL 2010 System Demonstrations</i> (<i>ACLDemos '10</i>). Association for Computational Linguistics, USA, 78–83.
+- Zhi Zhong and Hwee Tou Ng. 2010. It makes sense: a wide-coverage word sense disambiguation system for free text. In Proceedings of the ACL 2010 System Demonstrations. Association for Computational Linguistics, USA, 78–83.
 
-## Suggestions
----------------------------------------------------------------------------------
-Feel free to drop your suggestion at the following email address<br/>
->Author: Anant Dashpute<br/>
->Email: <anantdashpute@gmail.com>
+# Suggestions
+
+Feel free to drop your suggestion at the following email address:
+
+- Author: Anant Dashpute
+- Email: <anantdashpute@gmail.com>
