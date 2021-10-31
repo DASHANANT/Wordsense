@@ -57,4 +57,4 @@ year = {2021}
 ---------------------------------------------------------------------------------
 Feel free to drop your suggestion at the following email address<br/>
 >Author: Anant Dashpute<br/>
->Email: anantdashpute at gmail dot com
+>Email: <anantdashpute@gmail.com>
