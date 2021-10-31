@@ -1,6 +1,6 @@
-======================
-Get_Wordsense
-======================
+
+# Get_Wordsense
+
 
 The whole idea of word sense is controversial.
 The meaning of a word is highly contextual and depends on its usage in sentence.
